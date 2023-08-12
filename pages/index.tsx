@@ -4,6 +4,7 @@ import LeftSide from "@/components/LeftSide";
 import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -25,15 +26,15 @@ export default function Home() {
             <LeftSide/>
           </motion.div>
 
-          <div className=" h-[88vh] w-full flex justify-center items-center mx-auto p-4">
+          <div className=" h-[88vh] w-full  mx-auto p-4">
             <Banner />
-            {/* About */}
+            <About/>
             {/* Experience */}
             {/* Projects */}
             {/* Contact */}
              {/* Footer */}
           </div>
-          
+         
           <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
