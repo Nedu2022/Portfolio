@@ -1,9 +1,9 @@
-// interface Props {
-//   title: string;
-//   titleNumber: string;
-// }
+interface Props {
+  title: string;
+  titleNumber: string;
+}
 
-const SectionTitle = ({ title, titleNumber }: {title:string , titleNumber: string}) => {
+const SectionTitle = ({ title, titleNumber }: Props) => {
   return (
     <h2 className='font-titleFont text-2xl font-semibold flex items-center'>
       <span className='text-base md:text-lg text-textGreen mr-2'>{titleNumber}.</span>{title}

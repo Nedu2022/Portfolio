@@ -1,9 +1,9 @@
 import logo from "./images/logo.png";
 import weatherImg from "./images/weatherMap.png";
-import currencyImg from "./images/Currency Converter.png";
 import buriImg from "./images/Buri.png";
 import nft from "./images/my-nft.png";
+import homofy from "./images/homofy.png"
 
 
-export { logo, weatherImg, currencyImg, buriImg, nft };
+export { logo, weatherImg, buriImg, nft, homofy };
 
