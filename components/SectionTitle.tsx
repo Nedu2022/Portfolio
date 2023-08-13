@@ -1,14 +1,14 @@
-import React, { ReactNode } from "react";
-interface Props {
-  title: string;
-  titleNumber: string;
-}
+// import React, { ReactNode } from "react";
+// interface Props {
+//   title: string;
+//   titleNumber: string;
+// }
 
-const SectionTitle: React.FC<Props> = ({ title, titleNumber }) => (
-  <h2 className='font-titleFont text-2xl font-semibold flex items-center'>
-    <span className='text-base md:text-lg text-textGreen mr-2'>{titleNumber}.</span>{title}
-    <span className='hidden md:inline-flex md:w-60 lgl:w-72 h-[.5px] bg-gray-700 ml-6'></span>
-  </h2>
-);
+// const SectionTitle: React.FC<Props> = ({ title, titleNumber }) => (
+//   <h2 className='font-titleFont text-2xl font-semibold flex items-center'>
+//     <span className='text-base md:text-lg text-textGreen mr-2'>{titleNumber}.</span>{title}
+//     <span className='hidden md:inline-flex md:w-60 lgl:w-72 h-[.5px] bg-gray-700 ml-6'></span>
+//   </h2>
+// );
 
-export default SectionTitle;
+// export default SectionTitle;
