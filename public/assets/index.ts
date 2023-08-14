@@ -5,5 +5,5 @@ import nft from "./images/my-nft.png";
 import homofy from "./images/homofy.png"
 
 
-export { logo, weatherImg, buriImg, nft, homofy };
+export { logo, weatherImg, buriImg, nft,  homofy };
 
