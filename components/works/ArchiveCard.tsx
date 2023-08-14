@@ -2,7 +2,15 @@ import React from "react";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { FaRegFolder } from "react-icons/fa";
 
-const ArchiveCard = ({ title, des, listItem, link }) => {
+interface Props {
+  title: string;
+  des: string;
+  listItem: string[];
+  link: string;
+
+}
+
+const ArchiveCard = ({ title, des, listItem, link }:Props) => {
   return (
     <a href={link} target="_blank">
       <div className="w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
@@ -19,9 +27,9 @@ const ArchiveCard = ({ title, des, listItem, link }) => {
           </p>
         </div>
         <ul className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap">
-          {listItem.map(function (item: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined, i: React.Key | null | undefined) {
-            <li key={i}>{item}</li>;
-          })}
+          {listItem.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
         </ul>
       </div>
     </a>

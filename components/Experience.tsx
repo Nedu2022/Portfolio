@@ -35,7 +35,7 @@ const Experience = () => {
       <SectionTitle title="Where I have Worked" titleNumber="02" />
 
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col gap-32">
+        <ul className="gap-2 md:w-32 flex flex-col ">
           <li
             onClick={handleAlx}
             className={`${workAlx
