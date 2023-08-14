@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { buriImg, homofy, weatherImg } from "@/public/assets";
+import { buriImg, homofy, weatherImg } from "@/public/assets/index";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
