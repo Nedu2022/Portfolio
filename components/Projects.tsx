@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { buriImg, homofy } from "@/public/assets";
+import { buriImg, homofy, weatherImg } from "@/public/assets";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -18,11 +18,11 @@ const Projects = () => {
               target="_blank"
             >
               <div>
-                {/* <Image
+                <Image
                   className="w-full h-full object-contain"
-                  // src={weatherImg}
+                  src={weatherImg}
                   alt="weatherImg"
-                /> */}
+                />
               </div>
             </a>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
