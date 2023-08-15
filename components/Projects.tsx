@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { buriImg, homofy, nft} from "@/public/assets";
+import { buriImg, homofy, weMap} from "@/public/assets";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -14,13 +14,13 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://weather-map-bc94.vercel.app"
+              href="https://we-map.vercel.app"
               target="_blank"
             >
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={nft}
+                  src={weMap}
                   alt="weatherImg"
                 />
               </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                 </a>
                 <a
                   className="hover:text-textGreen duration-300"
-                  href="https://weather-map-bc94.vercel.app"
+                  href="https://we-map.vercel.app"
                   target="_blank"
                 >
                   <RxOpenInNewWindow />
