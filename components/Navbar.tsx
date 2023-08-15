@@ -1,4 +1,4 @@
-import { logo } from "@/public/assets";
+import  logo  from "../public/assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -19,9 +19,12 @@ const Navbar = () => {
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth"
-    });
+    
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth"
+      });
+    }
 
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => {

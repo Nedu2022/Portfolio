@@ -1,7 +1,8 @@
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
-import { buriImg, homofy, weatherImg, nft } from "@/public/assets/index";
+import  nft  from "../public/assets/images/my-nft.png";
+
 
 const About = () => {
   return (
