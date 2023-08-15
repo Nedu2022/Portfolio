@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            I am a frontend developer with 3 years of experience in React. I
+            I am a frontend developer with 3 years of experience. I
             have a strong foundation in front-end development and am skilled in
             creating user-friendly and responsive web applications using React
             and its ecosystem. I have experience working on a variety of

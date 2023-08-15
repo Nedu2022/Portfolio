@@ -39,7 +39,8 @@ const Projects = () => {
                 conditions as well as forecasts for future time periods, helping
                 to predict weather patterns and trends.
               </p>
-              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <ul
+                className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>React Js</li>
                 <li>TypeScript</li>
                 <li>Weather-api</li>
