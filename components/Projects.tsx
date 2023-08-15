@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { buriImg, homofy, weatherImg } from "@/public/assets";
+import { buriImg, homofy, nft} from "@/public/assets";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -20,7 +20,7 @@ const Projects = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={weatherImg}
+                  src={nft}
                   alt="weatherImg"
                 />
               </div>
