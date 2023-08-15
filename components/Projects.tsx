@@ -1,12 +1,13 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { buriImg, homofy, weMap} from "@/public/assets";
+import { buriImg, homofy, weMap } from "@/public/assets";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
+// max-w-containerSmall mx-auto py-10 lgl:py-32 
 const Projects = () => {
-  return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+  return (                            
+    <section id="project" className="max-w-container mx-auto py-10 lgl:px-28 py-32">
       <SectionTitle title="Projects I have Built" titleNumber="03" />
       <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
         {/* Project one */}
@@ -172,7 +173,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project four */}        
+        {/* Project four */}
         {/* <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a

@@ -17,7 +17,7 @@ const Archive = () => {
         />
 
 <ArchiveCard
-          title="Nuwito"
+          title="exrater"
           des="The expense tracker is a tool or application designed to help
           individuals and businesses monitor and manage their financial
           expenditures."
@@ -26,7 +26,7 @@ const Archive = () => {
         />
 
 <ArchiveCard
-          title="Nuwito"
+          title="gpt clone"
           des="The expense tracker is a tool or application designed to help
           individuals and businesses monitor and manage their financial
           expenditures."
@@ -35,7 +35,7 @@ const Archive = () => {
         />
 
 <ArchiveCard
-          title="Nuwito"
+          title="Quote"
           des="The expense tracker is a tool or application designed to help
           individuals and businesses monitor and manage their financial
           expenditures."
@@ -44,7 +44,7 @@ const Archive = () => {
         />
 
 <ArchiveCard
-          title="Nuwito"
+          title="Keypal"
           des="The expense tracker is a tool or application designed to help
           individuals and businesses monitor and manage their financial
           expenditures."
@@ -53,7 +53,7 @@ const Archive = () => {
         />
 
 <ArchiveCard
-          title="Nuwito"
+          title="Climate web"
           des="The expense tracker is a tool or application designed to help
           individuals and businesses monitor and manage their financial
           expenditures."

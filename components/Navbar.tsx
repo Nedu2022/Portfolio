@@ -15,14 +15,15 @@ const Navbar = () => {
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
-    // setShowMenu(false);
+    setShowMenu(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
     
     if (elem) {
       elem.scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
+
       });
     }
 
@@ -56,6 +57,7 @@ const Navbar = () => {
               onClick={handleScroll}
               href="#home"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}

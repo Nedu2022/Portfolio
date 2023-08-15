@@ -30,7 +30,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-containerSmall mx-auto py-10 lgl:py-24 px-4"
+      className="max-w-containerSmall mx-auto py-10 lgl:py-32 px-4"
     >
       <SectionTitle title="Where I have Worked" titleNumber="02" />
 
