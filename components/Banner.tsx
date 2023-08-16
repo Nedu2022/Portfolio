@@ -19,7 +19,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col">
         
-        Chinedu Nwabuokei.{""} 🥷🏼 <span className="text-textDark mt-2 lgl:mt-4">I am a Frontend Developer</span></motion.h1>
+        Chinedu Nwabuokei.{""} 🥷🏼 <span className="text-textDark mt-2 lgl:mt-4">I am a Software Engineer</span></motion.h1>
       
       
     </section>
