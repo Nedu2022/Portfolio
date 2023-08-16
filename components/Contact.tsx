@@ -9,11 +9,11 @@ const Contact = () => {
       <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
         04. What&apos;s Next?
       </p>
-      <h2 className='font-titleFont text 5xl font-semibold'>
+      <h2 className='font-titleFont text-5xl font-semibold'>
        Let&apos;s Collaborate Together
       </h2>
       <p className='max-w-[600px] text-center text-textDark'>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate placeat est amet voluptatum minima.
+      If you're open to the idea, I'd love to discuss this potential collaboration further. Let's set up a time to chat and explore how we can work together to create something amazing.
       </p>
       <a href="mailto:nwabuokeichinedu00@gmail.com">
         <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>Inbox Me</button>
