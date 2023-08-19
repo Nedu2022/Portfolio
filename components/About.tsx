@@ -3,6 +3,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
 import { nft } from "@/public/assets";
 
+
 const About = () => {
   return (
     <section
@@ -13,19 +14,28 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          As a skilled <span className="text-textGreen">Software Engineer</span>, I thrive on transforming innovative
-            concepts into practical solutions. With a deep passion for coding
-            and problem-solving, I possess expertise in designing, developing,
-            and implementing software applications that enhance user
-            experiences. My proficiency spans across multiple programming
-            languages and technologies, allowing me to adapt to dynamic project
-            requirements. I excel in collaborating within cross-functional
-            teams, effectively communicating complex technical concepts to
-            non-technical stakeholders. My commitment to continuous learning and
-            staying abreast of industry trends enables me to contribute to
-            cutting-edge projects. By combining technical prowess with
-            creativity, I contribute to crafting efficient, user-centric
-            software that drives business success.
+            As a skilled{" "}
+            <span className="text-textGreen">Software Engineer</span>, I'm
+            passionate about crafting elegant and efficient solutions in the
+            world of software engineering. With a strong foundation in computer
+            science and a knack for problem-solving, I thrive on turning complex
+            challenges into innovative solutions. I have a deep love for clean,
+            maintainable code and a keen eye for detail, which drives me to
+            continuously refine my skills and stay up-to-date with the latest
+            industry trends. Over the years, I've had the privilege of working
+            on a variety of projects. I find joy in collaborating with
+            cross-functional teams, sharing insights, and learning from others.
+            My experience extends across front-end and back-end development,
+            giving me a holistic understanding of the software development
+            lifecycle. When I'm not immersed in code, you can find me exploring
+            new technologies, experimenting with personal projects, and staying
+            curious about emerging trends. I believe that great software not
+            only solves problems but also enhances user experiences, and I'm
+            dedicated to creating solutions that make a meaningful impact. I'm
+            excited to continue my journey in software engineering, pushing
+            boundaries, and contributing to innovative projects that shape the
+            digital landscape. Let's connect and collaborate to bring
+            exceptional ideas to life!"
           </p>
 
           <p>Technologies i work with:</p>
