@@ -10,26 +10,10 @@ const Archive = () => {
       </div>
       <div className="grid gid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Nuwito"
-          des="The expense tracker is a tool or application designed to help
-          individuals and businesses monitor and manage their financial
-          expenditures."
+          title="Homofy"
+          des="The real estate app is a mobile application designed to provide users with tools and information related to buying, selling, renting, or investing in real estate properties. The app serves as a convenient and accessible platform for individuals, agents, and investors to navigate the real estate market. "
           listItem={["HTML", "CSS", "JavaScript"]}
-          link="https://nuwito.netlify.app/"
-        />
-
-        <ArchiveCard
-          title="exrater"
-          des="This is an exchange rate calculator which serves as a valuable tool for quickly and accurately converting between different currencies."
-          listItem={["HTML", "CSS", "JavaScript"]}
-          link="https://exrater.netlify.app"
-        />
-
-        <ArchiveCard
-          title="gpt clone"
-          des="This is an AI Landing Page"
-          listItem={["React Js"]}
-          link="https://gpt-clone2.vercel.app/"
+          link="https://homofy.netlify.app"
         />
 
         <ArchiveCard
@@ -41,10 +25,26 @@ const Archive = () => {
         />
 
         <ArchiveCard
-          title="Keypal"
-          des="The Keypal  provide's a platform for users to practice and enhance their typing abilities in a fun and engaging way. "
+          title="gpt clone"
+          des="This is an AI Landing Page"
+          listItem={["React Js"]}
+          link="https://gpt-clone2.vercel.app/"
+        />
+
+        <ArchiveCard
+          title="exrater"
+          des="This is an exchange rate calculator which serves as a valuable tool for quickly and accurately converting between different currencies."
           listItem={["HTML", "CSS", "JavaScript"]}
-          link="https://keypal.netlify.app"
+          link="https://exrater.netlify.app"
+        />
+
+        <ArchiveCard
+          title="Nuwito"
+          des="The expense tracker is a tool or application designed to help
+          individuals and businesses monitor and manage their financial
+          expenditures."
+          listItem={["HTML", "CSS", "JavaScript"]}
+          link="https://nuwito.netlify.app/"
         />
 
         <ArchiveCard
