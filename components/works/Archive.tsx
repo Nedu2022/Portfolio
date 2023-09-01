@@ -11,7 +11,7 @@ const Archive = () => {
       <div className="grid gid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Homofy"
-          des="The real estate app is a mobile application designed to provide users with tools and information related to buying, selling, renting, or investing in real estate properties. The app serves as a convenient and accessible platform for individuals, agents, and investors to navigate the real estate market. "
+          des="The real estate app is a mobile application designed to provide users with tools and information related to buying, selling, renting, or investing in real estate properties. "
           listItem={["HTML", "CSS", "JavaScript"]}
           link="https://homofy.netlify.app"
         />
