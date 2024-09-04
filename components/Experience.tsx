@@ -3,26 +3,38 @@ import SectionTitle from "./SectionTitle";
 import Alx from "./works/Alx";
 import Haap from "./works/Haap";
 import Ypf from "./works/Ypf";
+import Swap from "./works/SwapSpace";
 
 const Experience = () => {
-  const [workAlx, setWorkAlx] = useState(true);
+  const [workSwap, setWorkSwap] = useState(true);
+  const [workAlx, setWorkAlx] = useState(false);
   const [workHaap, setWorkHaap] = useState(false);
   const [workYpf, setWorkYpf] = useState(false);
 
+  const handleSwap = () => {
+    setWorkSwap(true);
+    setWorkAlx(false);
+    setWorkHaap(false);
+    setWorkYpf(false);
+  };
+
   const handleAlx = () => {
     setWorkAlx(true);
+    setWorkSwap(false);
     setWorkHaap(false);
     setWorkYpf(false);
   };
 
   const handleHaap = () => {
     setWorkAlx(false);
+    setWorkSwap(false);
     setWorkHaap(true);
     setWorkYpf(false);
   };
 
   const handleYpf = () => {
     setWorkAlx(false);
+    setWorkSwap(false);
     setWorkHaap(false);
     setWorkYpf(true);
   };
@@ -36,11 +48,19 @@ const Experience = () => {
 
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="gap-2 md:w-32 flex flex-col ">
+        <li
+            onClick={handleSwap}
+            className={`${workSwap
+              ? "border-l-textGreen text-textGreen"
+              : "border-l-hoverColor text-textDark"} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-2 font-medium`}
+          >
+            Swap Space
+          </li>
           <li
             onClick={handleAlx}
             className={`${workAlx
               ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              : "border-l-hoverColor text-textDark"} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-2 font-medium`}
           >
             ALX
           </li>
@@ -48,7 +68,7 @@ const Experience = () => {
             onClick={handleHaap}
             className={`${workHaap
               ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-2 font-medium`}
           >
             Haap
           </li>
@@ -56,7 +76,7 @@ const Experience = () => {
             onClick={handleYpf}
             className={`${workYpf
               ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-2 font-medium`}
           >
             YPF
           </li>
@@ -64,6 +84,7 @@ const Experience = () => {
         {workAlx && <Alx />}
         {workHaap && <Haap />}
         {workYpf && <Ypf />}
+        {workSwap && <Swap />}
       </div>
     </section>
   );

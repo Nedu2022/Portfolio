@@ -17,21 +17,21 @@ const Alx = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborate with cross-functional teams of developers to design and create web applications, and support software applications.
+         I Collaborated with senior engineers to develop data-driven interfaces, increasing data visualization clarity by 15%.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Play an integral role in implementing web Development solutions, effectively translating project requirements into visually appealing and functional web applications that enhance user experience.
+          Utilized GCP for scalable backend services, resulting in a 25% performance improvement and supporting a 40% traffic increase.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Enhance existing code, address project requests, and resolve bugs.
+          Contributed to new features using Python and Django, leading to increased user adoption and satisfaction.
         </li>
       </ul>
 

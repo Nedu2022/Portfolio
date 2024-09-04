@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const Ypf = () => {
+const Swap = () => {
   return (
     <motion.div
     initial={{ opacity: 0 }}
@@ -9,34 +9,35 @@ const Ypf = () => {
     transition={{ delay: 0.1 }}
     className="w-full "
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Front-end Developer <span className="text-textGreen tracking-wide">@YPF</span> </h3>
-      <p className="text-sm mt-1 font medium text-textDark">Nov 2020 – May 2021
-</p>
+      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Front-End Developer <span className="text-textGreen tracking-wide"> @Swap Space</span> </h3>
+      <p className="text-sm mt-1 font medium text-textDark">Sept 2023 - Dec 2023</p>
 
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Built and optimized the "Young Professional Forum" web application, ensuring responsive design and consistent functionality across all devices.
+          I Developed and implemented high-quality, reusable frontend code using TypeScript and React.js, enhancing user engagement by 10%.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborated on complex frontend features and workflows, contributing to the successful launch of new products.
+          I Designed responsive and user-friendly UI components, ensuring consistency and accessibility across devices.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Proficiently utilized technologies such as HTML, CSS, and JavaScript, while actively implementing QA practices and adhering to effective project management principles, to build visually appealing and user-friendly web applications that enhance the overall user experience.
+          I Integrated Firebase for real-time updates and authentication, boosting user engagement by 30%.
         </li>
       </ul>
+
+     
     </motion.div>
   )
 }
 
-export default Ypf;
+export default Swap

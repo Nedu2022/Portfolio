@@ -10,28 +10,28 @@ const Haap = () => {
     className="w-full "
     >
   <h3 className="flex gap-1 font-medium text-xl font-titleFont">Frontend Developer <span className="text-textGreen tracking-wide"> @Haap</span> </h3>
-      <p className="text-sm mt-1 font medium text-textDark">Oct  2021 - Present</p>
+      <p className="text-sm mt-1 font medium text-textDark">Oct 2021 - August 2023</p>
 
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Integrating a sophisticated comparison platform that allows users to effortlessly compare product specifications, prices, and customer reviews, helping them make informed purchasing decisions.
+          I Developed and enhanced the UI of a scalable consumer product using Next.js, TypeScript, and Redux.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Demonstrate expertise in maintaining and enhancing Haap web applications through mindful refactoring, rigorous testing, code reviewing, and knowledge sharing, fostering a culture of continuous improvement.
+          Integrated styled-components for efficient CSS-in-JS management, improving the overall maintainability of the codebase.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work on different web application tasks using JavaScript frameworks such as React, and Next Js, ensuring optimal performance and user experience.
+         I Led the effort to refactor and optimize frontend code, resulting in a smoother user experience and better developer productivity.
         </li>
       </ul>
     </motion.div>
